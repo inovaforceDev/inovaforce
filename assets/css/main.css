@@ -1104,8 +1104,8 @@ section,
   transition: 0.3s;
 }
 
-.services .service-item .icon i {
-  font-size: 28px;
+.services .service-item .icon image {
+  font-size: 64px;
   transition: ease-in-out 0.3s;
 }
 
