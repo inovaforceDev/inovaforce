@@ -145,28 +145,15 @@ h6 {
   --contrast-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
 }
 
 .header .logo img {
-  height: 150px;
-  width: 170px;
+  height: 115px;
+  width: 125px;
   margin-right: 8px;
 }
-
-/* .header .logo h1 {
-  font-size: 32px;
-  margin: 0;
-  font-weight: 700;
-  color: var(--heading-color);
-}
-
-.header .logo span {
-  color: var(--accent-color);
-  font-size: 64px;
-} */
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
@@ -476,7 +463,8 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  width: 90px; !important
+  height: 80px; !important
   margin-right: 6px;
 }
 
@@ -995,6 +983,7 @@ section,
 .about .icons {
   color: red;
 }
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
